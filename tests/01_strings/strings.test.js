@@ -5,7 +5,7 @@ const {
   cap, firstCharacter, doesInclude,
 } = require('./strings');
 
-describe('doesInclude', () => {
+describe.only('doesInclude', () => {
   it('is a function', () => {
     expect(typeof doesInclude).to.equal('function');
   });
