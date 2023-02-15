@@ -1,6 +1,7 @@
 /* eslint-disable arrow-body-style */
 /* eslint-disable consistent-return */
 function max() {
+  console.log(hello)
 
 }
 
