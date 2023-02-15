@@ -26,7 +26,7 @@ describe('doesInclude', () => {
   });
 });
 
-describe.only('firstCharacter', () => {
+describe('firstCharacter', () => {
   it('is a function', () => {
     expect(typeof firstCharacter).to.equal('function');
   });

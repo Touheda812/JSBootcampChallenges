@@ -6,6 +6,17 @@ function doesInclude(str, letter) {
 }
 
 function cap(str, letter) {
+  if (str.includes(letter)){
+    const index = str.indexOf(letter)
+    const num = index+1
+  
+    const index1 = (str[index])
+    const num1 = (str[num]).toUpperCase()
+    return num1
+  }
+  else{
+    return "sorry not found"
+  }
 
 }
 
