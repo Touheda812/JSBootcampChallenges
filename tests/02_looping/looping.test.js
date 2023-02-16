@@ -5,7 +5,7 @@ const {
   factorial, stringReverse, slicer, addTheEvens,
 } = require('./looping');
 
-describe('factorial', () => {
+describe.only('factorial', () => {
   it('is a function', () => {
     expect(typeof factorial).to.equal('function');
   });
@@ -23,7 +23,7 @@ describe('factorial', () => {
   });
 });
 
-describe('stringReverse', () => {
+describe.only('stringReverse', () => {
   it('is a function', () => {
     expect(typeof stringReverse).to.equal('function');
   });
