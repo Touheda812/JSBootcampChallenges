@@ -22,11 +22,28 @@ function stringReverse(str) {
 
 // do not use built in slice method.
 function slicer(originalString, startIdx, endIdx) {
- 
+  if (startIdx === undefined){
+    return originalString;
+  }
+  if (endIdx === undefined){
+    endIdx = originalString.length
+  }
+  let stringNew = ''
+
+  for (i= startIdx; i<endIdx; i++){
+    stringNew += originalString[i]
+  }
+  return stringNew;
+  
 
 }
 
 function addTheEvens(num) {
+  let total = 0;
+  for(i =0; i<=num; i+=2){
+    total +=i;
+  }
+  return total 
 
 }
 
